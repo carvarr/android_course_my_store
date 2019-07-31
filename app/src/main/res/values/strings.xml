@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyStore</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_signup">Sign up</string>
+
+    <string name="login_to_mystore">LogIn to MyStore</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="label_enter">Enter</string>
+    <string name="create_account">Create Account</string>
+    <!--Menu-->
+    <string name="action_logout">Salir</string>
+</resources>

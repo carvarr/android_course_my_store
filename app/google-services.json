@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1040370409045",
+    "firebase_url": "https://storesecurity-221e6.firebaseio.com",
+    "project_id": "storesecurity-221e6",
+    "storage_bucket": "storesecurity-221e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040370409045:android:5c7bb5f2b680986a",
+        "android_client_info": {
+          "package_name": "curso.carlos.mystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040370409045-00ta5u8vflgg7ldqlo25557s21hutrt9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "curso.carlos.mystore",
+            "certificate_hash": "e3aa165bb1400eca13a01743c9991bb85f290a09"
+          }
+        },
+        {
+          "client_id": "1040370409045-7jh9d640vfikongna16oq7t13nqq41fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX2KG8I_LdyJ1ZNOf-NNexUtOrJUJ_2Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040370409045-7jh9d640vfikongna16oq7t13nqq41fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="curso.carlos.mystore"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:5:5-27:19
+12        android:allowBackup="true"
+12-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.2] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\e6b39cd515a57f44a56173edd2ac6850\core-1.0.2\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:13:9-15:61
+22            android:name="curso.carlos.mystore.gateway.RegisterActivity"
+22-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:14:13-53
+23            android:label="@string/title_activity_signup" />
+23-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:15:13-58
+24        <activity
+24-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:16:9-18:60
+25            android:name="curso.carlos.mystore.gateway.LoginActivity"
+25-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:17:13-50
+26            android:label="@string/title_activity_login" />
+26-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:18:13-57
+27        <activity android:name="curso.carlos.mystore.MainActivity" >
+27-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:20:9-26:20
+27-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:20:19-47
+28            <intent-filter>
+28-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:21:13-25:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:22:17-69
+29-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:22:25-66
+30                <action android:name="android.intent.action.VIEW" />
+30-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:23:17-69
+30-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:24:17-77
+32-->D:\Desarrollo\Android\curso\my_store\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+36            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+36-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+37            android:excludeFromRecents="true"
+37-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+38            android:exported="true"
+38-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+39            android:launchMode="singleTask"
+39-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+40            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+40-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+41            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+41-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+42
+43        <service
+43-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+45            android:exported="false" >
+45-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+46            <meta-data
+46-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+47                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+47-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-auth:16.0.5] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\2ae0015f762057576125ece8b881d174\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+49        </service>
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:16.0.1] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\f6f7ca6662f851ee06f2918eeb1c7cbf\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:16.0.1] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\f6f7ca6662f851ee06f2918eeb1c7cbf\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:16.0.1] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\f6f7ca6662f851ee06f2918eeb1c7cbf\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:16.0.1] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\f6f7ca6662f851ee06f2918eeb1c7cbf\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+55
+56        <provider
+56-->[com.google.firebase:firebase-common:16.0.3] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\8e3e9503ddeb5a386dfc8b6775489d14\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+57            android:name="com.google.firebase.provider.FirebaseInitProvider"
+57-->[com.google.firebase:firebase-common:16.0.3] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\8e3e9503ddeb5a386dfc8b6775489d14\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+58            android:authorities="curso.carlos.mystore.firebaseinitprovider"
+58-->[com.google.firebase:firebase-common:16.0.3] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\8e3e9503ddeb5a386dfc8b6775489d14\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+59            android:exported="false"
+59-->[com.google.firebase:firebase-common:16.0.3] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\8e3e9503ddeb5a386dfc8b6775489d14\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+60            android:initOrder="100" />
+60-->[com.google.firebase:firebase-common:16.0.3] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\8e3e9503ddeb5a386dfc8b6775489d14\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:16.1.0] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\604b75731a627c2532ef0b1d3653ef65\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:16.1.0] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\604b75731a627c2532ef0b1d3653ef65\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:16.1.0] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\604b75731a627c2532ef0b1d3653ef65\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+65
+66        <provider
+66-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\10c96f6dbf6429caafb1d9840f31a0b9\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+67            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\10c96f6dbf6429caafb1d9840f31a0b9\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+68            android:authorities="curso.carlos.mystore.lifecycle-process"
+68-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\10c96f6dbf6429caafb1d9840f31a0b9\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+69            android:exported="false"
+69-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\10c96f6dbf6429caafb1d9840f31a0b9\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+70            android:multiprocess="true" />
+70-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Usuarios\carlviar\.gradle\caches\transforms-2\files-2.1\10c96f6dbf6429caafb1d9840f31a0b9\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+71    </application>
+72
+73</manifest>
