@@ -1089,6 +1089,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_seed
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1199,6 +1200,11 @@ id parent_matrix
 id passwordEt
 id percent
 id pin
+id pro_description
+id pro_image
+id pro_lbl_price
+id pro_name
+id pro_price
 id progress_circular
 id progress_horizontal
 id radio
@@ -1206,6 +1212,7 @@ id registerHereLbl
 id right
 id right_icon
 id right_side
+id rv_products
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1368,6 +1375,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout product_list_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -1415,6 +1423,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_logout
+string action_seed
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior

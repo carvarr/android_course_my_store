@@ -10,4 +10,5 @@
     <string name="create_account">Create Account</string>
     <!--Menu-->
     <string name="action_logout">Salir</string>
+    <string name="action_seed">crear productos</string>
 </resources>

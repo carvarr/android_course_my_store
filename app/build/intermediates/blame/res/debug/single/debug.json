@@ -324,6 +324,10 @@
         "source": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_list_item.xml.flat",
+        "source": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\src\\main\\res\\layout\\product_list_item.xml"
+    },
+    {
         "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
         "source": "D:\\Usuarios\\carlviar\\.gradle\\caches\\transforms-2\\files-2.1\\75bdea0c293d1dafd5e2b8aa32b53413\\appcompat-1.0.2\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
