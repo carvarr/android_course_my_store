@@ -52,6 +52,10 @@
         "source": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_detail.xml.flat",
+        "source": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\src\\main\\res\\layout\\activity_product_detail.xml"
+    },
+    {
         "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
@@ -118,10 +122,6 @@
     {
         "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
         "source": "D:\\Usuarios\\carlviar\\.gradle\\caches\\transforms-2\\files-2.1\\75bdea0c293d1dafd5e2b8aa32b53413\\appcompat-1.0.2\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
-        "source": "D:\\Usuarios\\carlviar\\.gradle\\caches\\transforms-2\\files-2.1\\75bdea0c293d1dafd5e2b8aa32b53413\\appcompat-1.0.2\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
@@ -206,6 +206,10 @@
     {
         "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
         "source": "D:\\Usuarios\\carlviar\\.gradle\\caches\\transforms-2\\files-2.1\\e6b39cd515a57f44a56173edd2ac6850\\core-1.0.2\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_image.xml.flat",
+        "source": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\src\\main\\res\\layout\\activity_product_image.xml"
     },
     {
         "merged": "D:\\Desarrollo\\Android\\curso\\my_store\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

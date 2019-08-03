@@ -1201,6 +1201,11 @@ id passwordEt
 id percent
 id pin
 id pro_description
+id pro_detail_description
+id pro_detail_image
+id pro_detail_name
+id pro_detail_price
+id pro_full_image
 id pro_image
 id pro_lbl_price
 id pro_name
@@ -1343,6 +1348,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_product_detail
+layout activity_product_image
 layout activity_register
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

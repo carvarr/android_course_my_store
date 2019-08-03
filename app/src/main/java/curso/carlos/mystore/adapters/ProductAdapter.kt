@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
+import curso.carlos.mystore.MainActivity
 import curso.carlos.mystore.R
 import curso.carlos.mystore.model.Product
 import kotlinx.android.synthetic.main.product_list_item.view.*
@@ -25,22 +26,38 @@ class ProductAdapter(val items: ArrayList<Product>, val context: Context) : Recy
         holder?.tvName.text = items[position].name
         holder?.tvDescription.text = items[position].description
         holder?.tvPrice.text = items[position].price.toString()
-
+        holder?.imageUrl = items[position].image
         Picasso.get().load(items[position].image).into(holder?.image)
     }
 }
 
-class ViewHolder : RecyclerView.ViewHolder {
+class ViewHolder : RecyclerView.ViewHolder, View.OnClickListener {
 
     val tvName: TextView
     val tvDescription: TextView
     val tvPrice: TextView
     val image: ImageView
 
+    var imageUrl: String = ""
+
     constructor(view: View) : super(view) {
         tvName = view.pro_name
         tvDescription = view.pro_description
         tvPrice = view.pro_price
         image = view.pro_image
+
+        tvName.setOnClickListener(this)
+        image.setOnClickListener(this)
+    }
+
+    override fun onClick(v: View?) {
+        when(v?.id) {
+            R.id.pro_name -> MainActivity.showProductDetail(
+                Product(tvName.text.toString(),
+                        tvDescription.text.toString(),
+                        imageUrl,
+                        tvPrice.text.toString().toDouble()), v.context)
+            R.id.pro_image -> MainActivity.showFullImage(imageUrl, v.context)
+        }
     }
 }
